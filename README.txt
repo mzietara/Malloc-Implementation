@@ -1,0 +1,2 @@
+This is an implementation of simple versions of malloc and free called smalloc and sfree. These two functions will operate nearly the same way as malloc and free: smalloc makes memory available ("allocates memory") and sfree frees that memory. One difference between free and sfree is that sfree will return a -1 on error and a 0 on success. (The library free call doesn't return any value.) Examples of this is in simpletest.c or mytest.c .
+
